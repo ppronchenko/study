@@ -186,8 +186,8 @@ and eq."ITEM_SUBCATEGORY" in ('SMARTPHONES', 'SMARTPHONES Demo')
 where a.num = 1
 order by a."AMOUNT_RUR" desc;
 
--- Запрос 10. Выгрузить кол-во чеков в каждом филиале
-select ro."BRANCHNAME", count(sales."DOC_NUMBER") as "Кол_во_чеков"
+-- Запрос 10. Выгрузить кол-во проданных позиций в каждом филиале
+select ro."BRANCHNAME", count(sales."DOC_NUMBER") as "Кол_во_позиций"
 from sales 
 left join items eq ON sales."ITEM_ARTICLE" = eq."ITEM_ARTICLE"
 LEFT JOIN shops on shops."CODE_OFFICE" = sales."CODE_OFFICE"
