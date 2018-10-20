@@ -1,0 +1,16 @@
+INFO     [2018-04-30 20:24:43,511] Distributor [id:28144] is preparing workers
+INFO     [2018-04-30 20:24:43,511] Create tasks queue
+INFO     [2018-04-30 20:24:43,522] Run 1 workers
+INFO     [2018-04-30 20:24:43,558] Start Worker 0 [id:28237]
+INFO     [2018-04-30 20:24:43,829] Worker 0 is creating process
+INFO     [2018-04-30 20:24:44,143] Task 0 was started in subprocess [id:28239] by Worker 0
+INFO     [2018-04-30 20:24:44,144] Task 0 has the following configs:
+{'loss': 'logloss', 'model_config': {'device': '/device:GPU:0'}}
+{'loss': 'dice', 'model_config': {'device': '/device:GPU:1'}}
+{'loss': 'dice2', 'model_config': {'device': '/device:GPU:2'}}
+INFO     [2018-04-30 20:24:44,146] Additional config:
+Config({'model_config': {'device': '/device:GPU:0'}})
+INFO     [2018-04-30 20:24:44,147] Additional config:
+Config({'model_config': {'device': '/device:GPU:1'}})
+INFO     [2018-04-30 20:24:44,148] Additional config:
+Config({'model_config': {'device': '/device:GPU:2'}})
