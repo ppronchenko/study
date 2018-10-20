@@ -1,1 +1,0 @@
-{"loss": {"name": "model_config/loss", "values": {"dice2": "<function dice2 at 0x7f9cde19ae18>", "dice": "<function dice at 0x7f9cde19ad90>", "logloss": "<function logloss at 0x7f9cde1a42f0>"}}}
