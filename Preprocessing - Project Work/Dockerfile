@@ -23,4 +23,5 @@ RUN conda install -c anaconda scipy numpy pandas sqlalchemy pymongo psycopg2 msg
 
 # Копируем в контейнер скрипт для создания таблиц
 COPY ./src/* /home/
+CMD ["/home/Preprocessing-Project.py", "-OPTIONAL_FLAG"]
 
